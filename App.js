@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import Hilal from './App.css';
 
 const Hilal = () => {
   const [currentCard, setCurrentCard] = useState(0);
