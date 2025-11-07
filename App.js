@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Hilal from './App.css';
+import './App.css';
 
-const Hilal = () => {
+const App = () => {
   const [currentCard, setCurrentCard] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [swipeStart, setSwipeStart] = useState(0);
@@ -1060,4 +1060,4 @@ const Hilal = () => {
   );
 };
 
-export default Hilal;
+export default App;
